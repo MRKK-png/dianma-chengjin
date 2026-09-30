@@ -1,0 +1,15 @@
+# Never commit private inputs or working material
+.DS_Store
+__MACOSX/
+._*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pdf
+*.zip
+private/
+inputs/
+work/
+outputs/
